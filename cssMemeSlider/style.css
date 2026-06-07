@@ -79,6 +79,10 @@ input[type="radio"] {
   border-color: #ffffff;
 }
 
+.dot:active {
+  transform: scale(1.8);
+}
+
 #slide-1:checked ~ .wrapper .text-1 {
   opacity: 1;
   visibility: visible;
